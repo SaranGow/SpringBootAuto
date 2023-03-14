@@ -1,4 +1,4 @@
-package com.netzero.app.frameworkLibrary.ConfigHelper;
+package com.codezee.app.frameworkLibrary.ConfigHelper;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;

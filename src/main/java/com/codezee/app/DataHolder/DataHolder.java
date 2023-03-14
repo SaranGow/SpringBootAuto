@@ -1,4 +1,4 @@
-package com.netzero.app.DataHolder;
+package com.codezee.app.DataHolder;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -10,6 +10,7 @@ import java.io.File;
 public class DataHolder {
 
     private File folderPathForDownload;
+    private String fileName;
 
     public File getFolderPathForDownload() {
         return folderPathForDownload;
@@ -18,6 +19,14 @@ public class DataHolder {
     public void setFolderPathForDownload(File folderPathForDownload) {
         this.folderPathForDownload = folderPathForDownload;
     }
+
+	public String getFileName() {
+		return fileName;
+	}
+
+	public void setFileName(String fileName) {
+		this.fileName = fileName;
+	}
 
 
 }

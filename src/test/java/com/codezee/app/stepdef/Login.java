@@ -1,9 +1,9 @@
-package com.netzero.app.stepdef;
+package com.codezee.app.stepdef;
 
 
-import com.netzero.app.runner.TestRunner;
-import com.netzero.app.commonLibrary.CommonLibrary;
-import com.netzero.app.frameworkLibrary.ConfigHelper.LoggerHelper;
+import com.codezee.app.runner.TestRunner;
+import com.codezee.app.commonLibrary.CommonLibrary;
+import com.codezee.app.frameworkLibrary.ConfigHelper.LoggerHelper;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;

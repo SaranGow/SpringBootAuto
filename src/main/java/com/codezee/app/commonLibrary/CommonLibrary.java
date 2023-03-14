@@ -1,6 +1,6 @@
-package com.netzero.app.commonLibrary;
+package com.codezee.app.commonLibrary;
 
-import com.netzero.app.frameworkLibrary.ConfigHelper.ConfigHelper;
+import com.codezee.app.frameworkLibrary.ConfigHelper.ConfigHelper;
 import org.openqa.selenium.WebDriver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;

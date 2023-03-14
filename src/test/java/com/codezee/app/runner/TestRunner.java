@@ -1,4 +1,4 @@
-package com.netzero.app.runner;
+package com.codezee.app.runner;
 
 
 import io.cucumber.junit.Cucumber;
@@ -10,11 +10,11 @@ import org.springframework.context.annotation.Configuration;
 
 @RunWith(Cucumber.class)
 @Configuration
-@ComponentScan(basePackages = { "com.netzero.app" })
+@ComponentScan(basePackages = { "com.codezee.app" })
 @CucumberOptions(
         plugin = {"pretty","html:target/cucumber-reports"}, //to generate different types of reporting
         features = "src/test/java/features", //the path of the feature files
-        glue = {"com.netzero.app"}, //the path of the step definition files
+        glue = {"com.codezee.app"}, //the path of the step definition files
         tags = "@smoke"
 )
 
